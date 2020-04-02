@@ -1,0 +1,19 @@
+.mainContainer{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    border: 1px solid black;
+    grid-column: 1/4;
+    grid-row: 2/4;
+}
+
+.mainDrawContainer{
+    color: green;
+}
+
+.mainDescriptionContainer{
+    grid-row:2;
+    color: red;
+    width: 500px;
+    height: 300px;
+}

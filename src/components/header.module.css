@@ -1,0 +1,50 @@
+.headerContainer{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    background-color: white;
+    grid-column: 1/4;
+    grid-row: 1;
+    flex-wrap: wrap;
+}
+
+.logoContainer{
+    display: flex;
+    justify-content: space-around;
+    width: 300px;
+    align-items: center;
+    text-transform: uppercase;
+    font-weight: bolder;
+    color: #C32ED9;
+}
+
+.logoContainer > img{
+    margin:0;
+    cursor: pointer;
+}
+
+.logoContainer > div{
+    cursor: pointer;
+}
+
+.navContainer{
+    width: 600px;
+}
+
+.navUlContainer{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin: 0;
+    list-style: none;
+
+}
+
+.navUlContainer > li{
+    margin: 0;
+    letter-spacing: 2px;
+    font-weight: bolder;
+    color: #C32ED9;
+    cursor: pointer;
+    text-transform: uppercase;    
+}
