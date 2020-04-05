@@ -1,0 +1,11 @@
+.footerContainer{
+    grid-column: 1/4;
+    grid-row: 5;
+    background-color: #F03EC0;
+}
+
+.footerContainer > h2{
+    color: white;
+    padding: 30px;
+    margin: 0;
+}

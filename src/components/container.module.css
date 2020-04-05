@@ -1,6 +1,6 @@
-.container{
+.Container{
     display:grid;
     grid-template-columns: 1fr 1fr 1fr;
-    grid-template-rows: 15vh 1fr 1fr;
-    height: 100vh;
+    grid-template-rows: 15vh 85vh 690px 690px 99px;
+    height: 110vh;
 }

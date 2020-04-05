@@ -1,0 +1,43 @@
+.contactSectionContainer{
+    grid-column: 1/4;
+    grid-row: 4;
+}
+
+.centerh2{
+    text-align: center;
+    margin-bottom: 60px;
+    color: #C32ED9;
+}
+
+.formContainer{
+    width: 600px;
+    height: 450px;
+    display: flex;
+    justify-content: space-around;
+    flex-direction: column;
+    margin:auto;
+}
+
+.formContainer p {
+    margin-bottom: 5px;
+    color: #AA34F8;
+}
+
+.nameFormContainer, .emailFormContainer, .messageFormContainer{
+    padding: 10px;
+}
+
+.nameFormContainer input, .emailFormContainer input, .messageFormContainer textarea{
+    width: 99%;
+    padding: 10px;
+    border-radius: 12px;
+    outline: none;
+    border: 3px solid #AA34F8;
+}
+
+.messageFormContainer textarea{
+    height: 180px;
+}
+
+
+

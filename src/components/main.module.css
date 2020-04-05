@@ -2,13 +2,15 @@
     display: flex;
     justify-content: space-around;
     align-items: center;
-    border: 1px solid black;
+    border-bottom: 3px solid #F03EC0;
     grid-column: 1/4;
-    grid-row: 2/4;
+    grid-row: 2/3;
 }
 
 .mainDrawContainer{
     color: green;
+    grid-column: 1/4;
+    grid-row: 2;
 }
 
 .mainDescriptionContainer{
@@ -16,4 +18,18 @@
     color: red;
     width: 500px;
     height: 300px;
+}
+
+.mainDescriptionContainer h1{
+    color: #C32ED9;
+}
+
+.mainDescriptionContainer p {
+    color: #AA34F8;  
+    /* transition: opacity 1s; */
+    /* opacity: 0; */
+}
+
+.mainDescriptionContainer p:hover{
+    /* opacity: 1; */
 }

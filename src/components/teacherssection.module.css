@@ -1,0 +1,16 @@
+.teachersSectionContainer{
+    border-bottom: 3px solid #F03EC0;
+    grid-column: 1/4;
+    grid-row: 3;
+}
+
+.cardsContainers{
+    display: flex;
+    justify-content: space-around;
+}
+
+.centerH2{
+    text-align: center;
+    margin-bottom: 60px;
+    color: #C32ED9;
+}

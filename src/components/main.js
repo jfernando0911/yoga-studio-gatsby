@@ -2,12 +2,12 @@ import React from 'react';
 import styles from './main.module.css';
 import logo from '../MainDraw.svg';
 
-const main = () => {
+const Main = () => {
     return (
         <div className={styles.mainContainer}> 
             <div className={styles.mainDrawContainer}>
                 {/* <div>Main Draw</div> */}
-                <img src={logo}/>
+                <img src={logo} alt=""/>
             </div>
             <div className={styles.mainDescriptionContainer}>
                 <h1>Who are we?</h1>
@@ -19,4 +19,4 @@ const main = () => {
     );
 }
 
-export default main;
+export default Main;

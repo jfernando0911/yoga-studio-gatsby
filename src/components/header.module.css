@@ -6,6 +6,7 @@
     grid-column: 1/4;
     grid-row: 1;
     flex-wrap: wrap;
+    border-bottom: 3px solid #F03EC0;
 }
 
 .logoContainer{

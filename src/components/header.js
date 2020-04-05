@@ -2,12 +2,12 @@ import React from 'react';
 import styles from './header.module.css';
 import logo from '../LogoImage.svg';
 
-const header = () =>
+const Header = () =>
     (
         <header className={styles.headerContainer}>
 
             <div className={styles.logoContainer}>
-                <img src={logo}></img>
+                <img src={logo} alt=""></img>
                 <div>Yoga studio</div>
             </div>    
             
@@ -21,4 +21,4 @@ const header = () =>
         </header>
     )
 
-export default header;
+export default Header;
