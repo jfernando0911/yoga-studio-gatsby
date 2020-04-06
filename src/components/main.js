@@ -7,7 +7,7 @@ const Main = () => {
         <div className={styles.mainContainer}> 
             <div className={styles.mainDrawContainer}>
                 {/* <div>Main Draw</div> */}
-                <img src={logo} alt=""/>
+                <img src={logo} alt="" className={styles.mainDraw}/>
             </div>
             <div className={styles.mainDescriptionContainer}>
                 <h1>Who are we?</h1>

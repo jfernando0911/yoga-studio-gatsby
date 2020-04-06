@@ -41,11 +41,28 @@
 
 }
 
-.navUlContainer > li{
+.navUlContainer li{
+    margin: 0;
+   
+}
+
+
+.navUlContainer li a{
     margin: 0;
     letter-spacing: 2px;
+    padding:0;
     font-weight: bolder;
     color: #C32ED9;
+    /* color: red; */
     cursor: pointer;
     text-transform: uppercase;    
+    /* text-decoration: none; */
+    text-decoration: none;
+    background-image: none;
 }
+
+.navUlContainer li a:hover{
+    color:#AA34F8;
+}
+
+

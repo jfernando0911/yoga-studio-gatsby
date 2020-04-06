@@ -4,3 +4,12 @@
     grid-template-rows: 15vh 85vh 690px 690px 99px;
     height: 110vh;
 }
+
+@media (max-width: 900px) {
+    
+    .Container{
+        grid-template-rows: 15vh 85vh 1300px 690px 99px;
+    }
+    
+}
+

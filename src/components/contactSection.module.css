@@ -6,6 +6,7 @@
 .centerh2{
     text-align: center;
     margin-bottom: 60px;
+    width: 600px;
     color: #C32ED9;
 }
 
@@ -39,5 +40,14 @@
     height: 180px;
 }
 
+
+@media (max-width: 900px) {
+    .formContainer{
+        width: 400px;
+    }
+    .centerh2{
+        width: 400px;
+    }
+}
 
 

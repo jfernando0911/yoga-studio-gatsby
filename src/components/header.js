@@ -1,6 +1,7 @@
 import React from 'react';
 import styles from './header.module.css';
 import logo from '../LogoImage.svg';
+import { Link } from "gatsby";
 
 const Header = () =>
     (
@@ -9,13 +10,13 @@ const Header = () =>
             <div className={styles.logoContainer}>
                 <img src={logo} alt=""></img>
                 <div>Yoga studio</div>
-            </div>    
-            
-            <nav className={styles.navContainer}> 
+            </div>
+
+            <nav className={styles.navContainer}>
                 <ul className={styles.navUlContainer}>
-                    <li>Home</li>
-                    <li>Teachers</li>
-                    <li>Contact</li>
+                    <li> <Link>Home</Link></li>
+                    <li><Link to="#teachers">Teachers</Link></li>
+                    <li><Link to="#contact">Contact</Link></li>
                 </ul>
             </nav>
         </header>

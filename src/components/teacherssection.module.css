@@ -7,6 +7,7 @@
 .cardsContainers{
     display: flex;
     justify-content: space-around;
+    height: 80%;
 }
 
 .centerH2{
@@ -14,3 +15,15 @@
     margin-bottom: 60px;
     color: #C32ED9;
 }
+
+
+@media (max-width: 900px) {
+    .cardsContainers{
+        display: flex;
+        justify-content: space-around;
+        flex-direction: column;
+        
+    }
+    
+}
+

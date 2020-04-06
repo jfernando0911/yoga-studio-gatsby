@@ -13,3 +13,10 @@
 .imageCard{
     text-align: center;
 }
+@media (max-width: 900px) {
+    .cardContainer{
+        height: 300px;
+    }
+    
+}
+

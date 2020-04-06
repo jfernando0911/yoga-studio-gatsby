@@ -2,7 +2,7 @@ import React from 'react';
 import styles from './contactSection.module.css'
 
 const ContactSection = () => (
-    <div className={styles.contactSectionContainer}>
+    <div className={styles.contactSectionContainer} id={'contact'}>
         <h2 className={styles.centerh2}> CONTACT</h2>
         <div className={styles.formContainer}>
             <div className={styles.nameFormContainer}>

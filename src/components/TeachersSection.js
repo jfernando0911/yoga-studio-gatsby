@@ -7,7 +7,7 @@ import img3 from '../images/3.png'
 
 const TeachersSection = () => {
     return (
-        <div className={styles.teachersSectionContainer}>
+        <div className={styles.teachersSectionContainer} id={"teachers"}>
             <h2 className={styles.centerH2}>TEACHERS</h2>
             <div className={styles.cardsContainers}>
                 <Card src={img1} name={"Richard Holmes"} description={"Lorem ipsum dolor sit amet"}/>

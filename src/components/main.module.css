@@ -13,12 +13,23 @@
     grid-row: 2;
 }
 
+.mainDraw{
+    animation: floating 2s infinite alternate;
+}
+
+
 .mainDescriptionContainer{
     grid-row:2;
-    color: red;
+    /* color: red; */
     width: 500px;
     height: 300px;
+    position: relative;
+    animation: leftmoving 2s ease-in-out;
+    /* opacity: 0; */
 }
+
+
+
 
 .mainDescriptionContainer h1{
     color: #C32ED9;
@@ -26,10 +37,35 @@
 
 .mainDescriptionContainer p {
     color: #AA34F8;  
-    /* transition: opacity 1s; */
-    /* opacity: 0; */
 }
 
-.mainDescriptionContainer p:hover{
-    /* opacity: 1; */
+
+
+@keyframes floating {
+    from{
+        /* opacity: 0; */
+        transform: translateY(25px);
+    }
+    to{
+        /* opacity: 1; */
+        transform: translateY(0);
+    }
 }
+
+@keyframes leftmoving{
+    from{
+        opacity: 0;
+        left: -100px;
+        
+    }
+    to{
+        left: 0;
+        opacity: 1;
+}
+}            
+
+@media (max-width: 900px) {
+    .mainDrawContainer{
+        display: none;
+    }
+  }
