@@ -1,4 +1,5 @@
 {
+  "homepage": "https://jfernando0911.github.io/yoga-studio-gatsby/",
   "name": "yoga-studio-gatsby",
   "private": true,
   "description": "It's just an example website about a yoga studio that has a navbar, a brief description with a svg logo that has an animation. It also has a teacher section, contact section and a footer.",
