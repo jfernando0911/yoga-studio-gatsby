@@ -1,10 +1,11 @@
 {
-  "name": "gatsby-starter-hello-world",
+  "name": "yoga-studio-gatsby",
   "private": true,
-  "description": "A simplified bare-bones starter for Gatsby",
+  "description": "It's just an example website about a yoga studio that has a navbar, a brief description with a svg logo that has an animation. It also has a teacher section, contact section and a footer.",
   "version": "0.1.0",
   "license": "MIT",
   "scripts": {
+    "deploy": "gatsby build --prefix-paths && gh-pages -d public",
     "build": "gatsby build",
     "develop": "gatsby develop",
     "format": "prettier --write \"**/*.{js,jsx,json,md}\"",
@@ -23,6 +24,7 @@
     "typography-theme-fairy-gates": "^0.16.19"
   },
   "devDependencies": {
+    "gh-pages": "^2.2.0",
     "prettier": "^1.19.1"
   },
   "repository": {
