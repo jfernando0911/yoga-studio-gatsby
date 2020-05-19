@@ -1,4 +1,5 @@
 module.exports = {
+  pathPrefix: "/yoga-studio-gatsby",
   plugins: [
     {
       resolve: `gatsby-plugin-typography`,
