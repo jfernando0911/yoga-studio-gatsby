@@ -1,6 +1,6 @@
 import React from 'react';
 import styles from './main.module.css';
-import logo from '../MainDraw.svg';
+import logo from "../../static/";
 
 const Main = () => {
     return (
